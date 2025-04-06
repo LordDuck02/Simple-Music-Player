@@ -2,6 +2,7 @@
 Simple music player made with HTML, CSS and Javascript.
 
 This was one of the first projects I made a veerrry long time ago, just to train basic concepts.
+It loads the tracks from a tracks.json file.
 
 It uses a random image API to load cover arts, hence why it takes so long to load.
 
