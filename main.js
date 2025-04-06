@@ -20,6 +20,9 @@ let currTrack = document.createElement('audio');
 
 let trackList = [];
 
+// hello
+// this is needed, or you're gonna get a goofy console error cuz tracklist is "undefined" or whatever
+// idk i added this and it worked perfectly
 fetch("tracks.json")
     .then(response => response.json())
     .then(data => {
